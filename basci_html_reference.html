@@ -13,12 +13,14 @@
 
         <link rel="stylesheet" href="basci_html_reference.css">
 
+        <script src="basci_html_reference.js"></script>
+
     </head>
 
     <body>
 
         <!-- we can change the format of heading as well as text -->
-        <h1>Heading 1</h1>
+        <h1 title="this is for hint!!">Heading 1</h1>
 
         <!-- Browsers display <strong> as <b>, and <em> as <i>. However, there is a difference in the meaning of these tags: <b> and <i> defines bold and italic text, but <strong> and <em> means that the text is "important".
         <b> - Bold text
@@ -44,14 +46,31 @@
           
             Oh, bring back my Bonnie to me.
         </pre>
-
-        <!-- The HTML <abbr> element defines an abbreviation or an acronym. or hint-->
-        <p><abbr title="this is like hint">Hover over me!!!</abbr></p>
         
         <!-- The HTML <bdo> element defines bi-directional override. -->
         <bdo class="ab">This text will be written from right to left</bdo>
         <!-- Set the text direction to "right-to-left": -->
         <p class="ac">This text goes from right to left</p>
+
+        <!-- simplest link format -->
+        <a href="https://google.com">click here to go to google.com</a><br>
+        <!-- local file link -->
+        <a href="basci_html_reference.js">basci_html_reference</a><br>
+        <!-- _blank - Opens the linked document in a new window or new tab -->
+        <a class="af" href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a><br>
+        <!-- If your webpage is locked in a frame, you can use target="_top" to break out of the frame: -->
+        <a href="https://www.w3schools.com/html/" target="_top">HTML tutorial!</a><br>
+        <!-- IMAGE link -->
+        <a href="/1.git files/cat.jpg" target="_blank">
+            <img src="/1.git files/cat.jpg" alt="HTML tutorial" style="width:300px;height:200px;border:0;">
+            <br>
+            click on image or here for original image!!!
+        </a><br>
+        <!-- BUTTON as a link -->
+        <button class="ad" onclick="window.location.href= 'https://facebook.com';">lets go to fb
+        </button>
+
+        <a class="ag" href="https://google.com">google</a>
 
     </body>
 </html>
