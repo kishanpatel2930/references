@@ -3,26 +3,38 @@
 <!--The HTML lang attribute can be used to declare the language of a    Web page or a portion of a Web page.-->
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
 
-        <!-- The viewport is the user's visible area of a web page. It varies with the device - it will be smaller on a mobile phone than on a computer screen. -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The viewport is the user's visible area of a web page. It varies with the device - it will be smaller on a mobile phone than on a computer screen. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>basci_html_reference</title>
+    <title>basci_html_reference</title>
 
-        <link rel="stylesheet" href="basci_html_reference.css">
+    <link rel="stylesheet" href="basci_html_reference.css">
 
-        <script src="basci_html_reference.js"></script>
+    <script src="basci_html_reference.js"></script>
 
-    </head>
+    <style>
+        .para{
+            background-color: aqua;
+            height: 85px;
+            width: 500px;
+            border: 4px solid gold;
+            border-radius: 11px;
+            text-align:center;
+            padding-top: 15px;
+        }
+    </style>
 
-    <body>
+</head>
 
-        <!-- we can change the format of heading as well as text -->
-        <h1 title="this is for hint!!">Heading 1</h1>
+<body>
 
-        <!-- Browsers display <strong> as <b>, and <em> as <i>. However, there is a difference in the meaning of these tags: <b> and <i> defines bold and italic text, but <strong> and <em> means that the text is "important".
+    <!-- we can change the format of heading as well as text -->
+    <h1 title="this is for hint!!">H  &nbsp;eading 1</h1>
+
+    <!-- Browsers display <strong> as <b>, and <em> as <i>. However, there is a difference in the meaning of these tags: <b> and <i> defines bold and italic text, but <strong> and <em> means that the text is "important".
         <b> - Bold text
         <strong> - Important text
         <i> - Italic text
@@ -34,43 +46,10 @@
         <sub> - Subscript text
         <sup> - Superscript text -->
 
-        <p class="aa">trying to change text format</p>
+    <p class="aa">trying to change text format</p>
 
-        <!-- The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and "it preserves both spaces and line breaks" -->
-        <pre>
-            My Bonnie lies over the ocean.
-          
-            My Bonnie lies over the sea.
-          
-            My Bonnie lies over the ocean.
-          
-            Oh, bring back my Bonnie to me.
-        </pre>
-        
-        <!-- The HTML <bdo> element defines bi-directional override. -->
-        <bdo class="ab">This text will be written from right to left</bdo>
-        <!-- Set the text direction to "right-to-left": -->
-        <p class="ac">This text goes from right to left</p>
+    <p class="para">this is my second paragraph</p>
 
-        <!-- simplest link format -->
-        <a href="https://google.com">click here to go to google.com</a><br>
-        <!-- local file link -->
-        <a href="basci_html_reference.js">basci_html_reference</a><br>
-        <!-- _blank - Opens the linked document in a new window or new tab -->
-        <a class="af" href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a><br>
-        <!-- If your webpage is locked in a frame, you can use target="_top" to break out of the frame: -->
-        <a href="https://www.w3schools.com/html/" target="_top">HTML tutorial!</a><br>
-        <!-- IMAGE link -->
-        <a href="/1.git files/cat.jpg" target="_blank">
-            <img src="/1.git files/cat.jpg" alt="HTML tutorial" style="width:300px;height:200px;border:0;">
-            <br>
-            click on image or here for original image!!!
-        </a><br>
-        <!-- BUTTON as a link -->
-        <button class="ad" onclick="window.location.href= 'https://facebook.com';">lets go to fb
-        </button>
+</body>
 
-        <a class="ag" href="https://google.com">google</a>
-
-    </body>
 </html>

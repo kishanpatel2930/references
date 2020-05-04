@@ -17,11 +17,12 @@ direction:rtl;
 }
 
 button.ad{ 
+    border-radius: 15px;
     background-color: darkgreen;
     border: none;
     color: white;
     padding: 15px 35px;
-    text-align: center;
+    /* text-align: center; */
     font-size: 16px;
     margin: 4px 2px;
     opacity: 0.7;
@@ -32,24 +33,36 @@ button.ad:hover{
     opacity: 1;
 }
 
-a {
-    color: khaki;
+
+a:visited{
+    color: green;
     background-color: transparent;
     text-decoration: none;
-  }
-  a:visited{
-    color: darkblue;
-    background-color: transparent;
-    text-decoration: none;
-  }
+}
   a:hover {
     color: red;
     background-color: transparent;
     text-decoration: underline;
-  }
+}
   a:active {
     color: yellow;
     background-color: transparent;
     text-decoration: underline;
-  }
-  
+}
+
+a.ag{
+  background-image: url('https://yt3.ggpht.com/a/AATXAJx4-P9CMhAshdV2-TD6MEzHhEu44jnGvIc0=s100-c-k-c0xffffffff-no-rj-mo');
+  color:white;
+  height: 50px;
+  background-repeat:no-repeat ;
+  padding: 40px 25px;
+  /* display: inline-block; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 8px 0px;
+}
+
+a.af{
+  line-height: 1.9em;
+}

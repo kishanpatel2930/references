@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="basci_html_reference.css">
+</head>
+<body>
+    <center>
+    <h2>Please fill this form....</h2>
+    </center>
+
+    <form action="basic.php">
+
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="myName" id="name" placeholder="please enter your name">
+        </div>
+        <br>
+
+        <div >
+            Surname: <input type="text" name="mySurname">
+        </div>
+        <br>
+
+        <div>
+            Age: <input type="number" name="myAge">
+        </div>
+        <br>
+        
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+
+        <div>
+            Hobbies: <input type="checkbox" name="myHobbies" checked>Reading!
+            <input type="checkbox" name="myHobbies">Listening to music!
+            <input type="checkbox" name="myHobbies">Travelig!
+        </div>
+        <br>
+
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="myEmail" id="gender">Male
+            <input type="radio" name="myEmail">Female
+            <input type="radio" name="myEmail">Other
+        </div>
+        <br>
+
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+
+        <div>
+            <label for="car">Car:</label>
+            <select name="myCar" id="car">
+                <option value="can">Canada</option>
+                <option value="ind" selected>India</option>
+                <option value="us">The Usa</option>
+                <option value="uk">The Uk</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            Write your Opinion: 
+            <br><textarea name="myOpinion" id="opinion" cols="60" rows="8"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset All">
+        </div>
+
+    </form>
+
+</body>
+</html>
